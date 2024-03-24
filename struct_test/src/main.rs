@@ -3,6 +3,7 @@ struct Triange {
     cat2: f64
 }
 
+// methods & structures, omly this implement methods
 impl Triange {
     pub fn hyp(&self) -> f64 {
         (self.cat1*self.cat1 + self.cat2*self.cat2).sqrt()
